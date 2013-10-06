@@ -1,0 +1,21 @@
+body{
+	font-size:12px;
+}
+#header{
+	float:left;
+	position:absolute;	
+	margin:10px 25px;
+	z-index:1;
+}
+#backimg{
+	float:left;
+	position:absolute;	
+	z-index:-1;
+}
+#divbody{
+	float:left;
+	margin:30px 0px;
+}
+.cl{
+	margin:10px 0px;
+}

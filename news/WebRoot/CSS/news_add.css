@@ -1,0 +1,153 @@
+body {
+	font-size: 12px;
+}
+
+#divHead {
+	clear: both;
+	margin: 0 auto;
+	margin-top: 15px;
+	width: 947px;
+	height: 116px;
+	border: 1px solid #dfdfdf;
+	background: url(../Images/topbg.gif) repeat-x;
+}
+
+#divWelcome {
+	padding: 6px 0 0 10px;
+	height: 30px;
+}
+
+#divHImg {
+	clear: both;
+	padding: 0 10px;
+}
+
+#logo {
+	float: left;
+	background: #f00;
+}
+
+#a_b {
+	float: right;
+	width: 781px;
+	margin: 4px 0 0 0;
+	background: #f00;
+}
+
+#adm {
+	clear: both;
+	width: 947px;
+	margin: 14px auto 0;
+	height: 25px;
+	background: url(../Images/admin_bar.gif) repeat-x;
+	border: 1px #d5d9da solid;
+	border-top: 0;
+}
+
+#status {
+	float: left;
+	width: 550px;
+	padding: 2px 0 0 20px;
+}
+
+#divList {
+	float: right;
+	width: 360px;
+}
+
+#divList li {
+	float: right;
+	width: 66px;
+	height: 22px;
+	line-height: 22px;
+	text-align: center;
+	background: url(../Images/channel_bg.gif) no-repeat;
+	margin: 0px 0px 0 35px;
+	list-style:none;
+}
+
+#divList li a {
+	color: #2a3668;
+	text-decoration: none;
+}
+
+#divList li a:hover {
+	color: #f60;
+	text-decoration: underline;
+}
+
+#divList li#name {
+	background: none;
+	width: auto;
+}
+
+#divIframe {
+	float: left;
+	margin: 10px 50px;
+	width:100px;
+	border: 1px sold black;
+}
+
+#divList {
+	clear: both;
+	height: 100%;
+	overflow: hidden;
+	margin: 40px;
+	float: left;
+	width: 130px;
+	padding: 10px 0 0 32px;
+}
+
+
+/*
+	#opt_area{ float:right; width:770px; margin:14px 0 0 0;}
+		#opt_type{ height:28px; padding:4px 0 0 18px; margin:0 0 20px 0; font:600 14px/24px Arial; background:url(../Images/opt_name.gif) no-repeat;}
+		#opt_area p{ margin:10px 0;}
+		.opt_input{ margin-left:6px; border:1px solid #999; height:18px; line-height:18px; width:200px;}
+		.opt_sub{ height:25px; background:url(../Images/opt_sub.gif) repeat-x; text-align:center; border:1px solid #ceced0; font:12px/25px Arial; padding:0 6px; letter-spacing:3px;}
+		.classlist{ clear:both; margin-top:10px;}
+			.classlist li{ position:relative; line-height:22px; background:url(../Images/arrow.gif) no-repeat 0 10px; padding:0 130px 0 8px;}
+			.classlist li.space{ background:none; height:22px;}
+			.classlist li span{ position:absolute; top:-1px; *top:-4px; right:16px;}
+			*/
+#about {
+	clear: both;
+	width: 947px;
+	margin: 35px auto 0;
+	background: #e3e3e3;
+	border-top: 2px #0c7eb2 solid;
+	height: 26px;
+	line-height: 28px;
+	text-align: center;
+}
+
+#about a {
+	color: #000;
+	text-decoration: none;
+}
+
+#about a:hover {
+	color: #f00;
+	text-decoration: underline;
+}
+
+#about span {
+	margin: 0 6px;
+}
+
+#footer {
+	clear: both;
+	width: 947px;
+	margin: 14px auto 0;
+	text-align: center;
+}
+
+#footer p {
+	font: 14px/ 24px Arial;
+	color: #999;
+}
+
+#footer p.copyright {
+	color: #333;
+	margin-top: 15px;
+}
